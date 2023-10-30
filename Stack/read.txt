@@ -1,0 +1,1 @@
+implemntation of stack using doubly linked list

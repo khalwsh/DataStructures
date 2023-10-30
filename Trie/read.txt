@@ -1,0 +1,8 @@
+# trie-data-structure
+A trie, also known as a prefix tree or digital tree, is a tree-like data structure that is used for efficient storage and retrieval of strings, especially when there are many similar strings. It is essentially an ordered tree in which the keys are usually strings.
+
+The problem that tries aim to solve is the efficient search and retrieval of strings. In a trie, each node represents a string prefix, and the child nodes represent the characters that can follow that prefix. By traversing the trie from the root to a leaf node, we can retrieve the value associated with the corresponding key.
+
+One of the main advantages of a trie over other search algorithms like binary search trees or hash tables is its speed and efficiency in searching for keys that share common prefixes. With a trie, we can perform prefix queries, find all keys with a given prefix, and determine if a string exists in the trie with a complexity of O(M) where M is the length of the key being searched for.
+
+Tries are commonly used in applications where fast searches on large numbers of strings are required, such as spell checkers, auto-complete features, and IP routing tables

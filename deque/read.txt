@@ -1,0 +1,1 @@
+implemntation of a deque using doubly linked list
